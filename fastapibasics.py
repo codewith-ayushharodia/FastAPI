@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 app = FastAPI()
-a = [{"name":"Ayush","id":1},{"name":"Avika","id":2}]
+a = [{"name":"Ayush","id":1},{"name":"tom","id":2}]
 @app.get("/")
 def home():
     return "hello!"
